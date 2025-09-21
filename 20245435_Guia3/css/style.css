@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Mult);
+
+*{  
+    margin: 0;  
+    padding: 0;  
+}
+
+body{
+    font-family: 'Muli', sans-serif;  
+    text-align: justify;
+}
+
+header{
+    background: #16A085;
+    height: 130px;
+    overflow: hidden; /*Punto 24*/
+}
+
+footer{
+    margin-top: 20px;
+    background: #16A085;
+    height: 50px;
+}
+
+header div, footer div{
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+
+}
+
+h1{
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+    padding-top: 0.5rem;
+
+}
+
+h2{
+    font-size: 2rem;
+}
+
+section{
+    margin: 0 auto;
+    width: 90%; 
+    overflow: hidden; /*Esto es para solucionar el error de visualización de header y footer (punto 19)*/
+    position: relative;
+}
+
+section article{
+    font-size: 0.9rem;
+    height: 340px;
+    width: 32.33%;
+    float: left; /*Esto es para mostrar en tres columnas (punto 18 de la guía)*/
+    margin: 0.5%; /*Punto 20 de la guía*/
+    border: 2px dashed #16A085;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+section article img{
+    height: 180px;
+    max-width: 80%;
+    margin: 5px auto; /*Punto 25*/
+    display: block; /*Punto 26*/
+}
+
+section article h3{
+    text-align: center; /*Punto 27*/
+}
+
+footer div{
+    padding-top: 1rem;
+}
+
+section article:nth-child(2){  
+    background-color: rgba( 70,130,180,0.9);  
+    position: static;  
+    Left: 100px;  
+    top: 50px;
+    display: none;
+}
+
+/*
+A partir del comportamiento visto, explique ¿Cuáles son las 
+diferencias entre el posicionamiento relativo y absoluto?
+R// El posicionamiento absoluto toma todo el espacio que ocupa el 
+contenedor más cercano. En cambio, el relativo posiciona de acuerdo 
+al lugar en el que se encuentra ubicado el objeto originalmente.
+*/
+
+/*
+A partir de los resultados obtenidos, responda ¿Cuál es la 
+diferencia entre ocultar los elementos ocupando display: none y 
+visibility: hidden?
+R// Al usar display: none, los elementos "desaparecen", como si no 
+existieran; mientras que al hacer uso de visibility: hidden, los 
+elementos se mantienen donde están ubicados, pero simplemente no 
+se visualizan. 
+*/
