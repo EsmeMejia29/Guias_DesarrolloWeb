@@ -4,32 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Índice de guias</title>  
+    <style>
+        h1{
+            background-color: pink;
+            text-align: center;
+            width: 100%;
+        }
+        .guias{
+            font-size: 0.9rem;
+            height: 235px;
+            width: 27%;
+            margin: 0.5%;
+            border: 2px solid gray;
+            box-sizing: border-box;
+            position: relative;
+            display: inline-block;
+            vertical-align: top;
+        }
+        #contenedor{
+            display: flex;
+            justify-content: center;
+        }
+        .encabezados{
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+            color: #008DC0;
+        }
+        a:hover{
+            color: #002F5C;
+            font-size:medium;
+        }
+        a:visited{
+            color: gray;
+        }
+    </style>
 </head>
 <body>
-    <h1>Guias de Lorena Esmeralda Mejía Ramos - 20245435</h1>
-    <h2>Guia 1</h2>
-    <ul>
-        <li><a href="..\Guias_DesarrolloWeb\20245435_guia1\estilos_embebidos.html">Ejercicio 1: Estilos embebidos</a></li>
-        <li><a href="..\Guias_DesarrolloWeb\20245435_guia1\ejemplo2.html">Ejercicio 2: Usando la etiqueta Style</a></li>
-        <li><a href="..\Guias_DesarrolloWeb\20245435_guia1\paises.html">Ejercicio 3: Países</a></li>
-        <li><a href="..\Guias_DesarrolloWeb\20245435_guia1\ejercicio_complementario.html">Ejercicio complementario</a></li>
-    </ul>
-    <h2>Guia 2</h2>
-    <ul>
-        <li><a href="..\Guias_DesarrolloWeb\20245435_Guia2\pelicula.html">Ejercicio 1: El discurso del rey</a></li>
-        <li><a href="..\Guias_DesarrolloWeb\20245435_Guia2\tablero.html">Ejercicio 2: Tablero de Damas</a></li>
-        <li><a href="..\Guias_DesarrolloWeb\20245435_Guia2\biografia.html">Ejercicio complementario: Mi biografía</a></li>
-    </ul>
-    <h2>Guia 3</h2>
-    <ul>
-        <li><a href="..\Guias_DesarrolloWeb\20245435_Guia3\oscares.html">Ejercicio 1: Nominaciones a Óscares</a></li>
-        <li><a href="..\Guias_DesarrolloWeb\20245435_Guia3\menu_horizontal.html">Ejercicio 2: Menú horizontal</a></li>
-        <li><a href="..\Guias_DesarrolloWeb\20245435_Guia3\index.html">Ejercicio 3: Viajeros, agencia de viajes</a></li>
-        <li>Ejercicios complementarios:
-            <ul><li><a href="..\Guias_DesarrolloWeb\20245435_Guia3\analisis.html">Posicionamiento de cartas</a></li></ul>
-            <ul><li><a href="..\Guias_DesarrolloWeb\20245435_Guia3\oscares_complementario.html">Nominaciones a Óscares modificado</a></li></ul>
-            <ul><li><a href="..\Guias_DesarrolloWeb\20245435_Guia3\index_complementario.html">Agencia de viajes, diseño flexible</a></li></ul>
-        </li>
-    </ul>
+    <h1>Guías de Lorena Esmeralda Mejía Ramos - 20245435</h1>
+    <div id="contenedor">
+        <section class="guias">
+            <h2 class="encabezados">Guia 1</h2>
+            <ul>
+                <li><a href="..\Guias_DesarrolloWeb\20245435_guia1\estilos_embebidos.html" target="_blank">Ejercicio 1: Estilos embebidos</a></li>
+                <li><a href="..\Guias_DesarrolloWeb\20245435_guia1\ejemplo2.html" target="_blank">Ejercicio 2: Usando la etiqueta Style</a></li>
+                <li><a href="..\Guias_DesarrolloWeb\20245435_guia1\paises.html" target="_blank">Ejercicio 3: Países</a></li>
+                <li><a href="..\Guias_DesarrolloWeb\20245435_guia1\ejercicio_complementario.html" target="_blank">Ejercicio complementario</a></li>
+            </ul>
+        </section>
+        <section class="guias">
+            <h2 class="encabezados">Guia 2</h2>
+            <ul>
+                <li><a href="..\Guias_DesarrolloWeb\20245435_Guia2\pelicula.html" target="_blank">Ejercicio 1: El discurso del rey</a></li>
+                <li><a href="..\Guias_DesarrolloWeb\20245435_Guia2\tablero.html" target="_blank">Ejercicio 2: Tablero de Damas</a></li>
+                <li><a href="..\Guias_DesarrolloWeb\20245435_Guia2\biografia.html" target="_blank">Ejercicio complementario: Mi biografía</a></li>
+            </ul>
+        </section>
+        <section class="guias">
+        <h2 class="encabezados">Guia 3</h2>
+        <ul>
+            <li><a href="..\Guias_DesarrolloWeb\20245435_Guia3\oscares.html" target="_blank">Ejercicio 1: Nominaciones a Óscares</a></li>
+            <li><a href="..\Guias_DesarrolloWeb\20245435_Guia3\menu_horizontal.html" target="_blank">Ejercicio 2: Menú horizontal</a></li>
+            <li><a href="..\Guias_DesarrolloWeb\20245435_Guia3\index.html" target="_blank">Ejercicio 3: Viajeros, agencia de viajes</a></li>
+            <li>Ejercicios complementarios:
+                <ul><li><a href="..\Guias_DesarrolloWeb\20245435_Guia3\analisis.html" target="_blank">Posicionamiento de cartas</a></li></ul>
+                <ul><li><a href="..\Guias_DesarrolloWeb\20245435_Guia3\oscares_complementario.html" target="_blank">Nominaciones a Óscares modificado</a></li></ul>
+                <ul><li><a href="..\Guias_DesarrolloWeb\20245435_Guia3\index_complementario.html" target="_blank">Agencia de viajes, diseño flexible</a></li></ul>
+            </li>
+        </ul> 
+        </section>
+    </div>
 </body>
 </html>
