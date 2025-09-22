@@ -1,0 +1,72 @@
+#diez_de_diamantes, #sota_de_diamantes, #reina_de_diamantes, #rey_de_diamantes, #as_de_diamantes{
+    position: absolute;
+    width: 150px;
+    line-height: 250px;
+    text-align: center;
+}
+
+#diez_de_diamantes{
+    z-index: 1;
+    top: 40px;
+    left: 40px;
+}
+
+#sota_de_diamantes{
+    z-index: 2;
+    top: 55px;
+    left: 55px;
+}
+#reina_de_diamantes{
+    z-index: 3;
+    top: 70px;
+    left: 70px;
+}
+
+#rey_de_diamantes{
+    z-index: 4;
+    top: 85px;
+    left: 85px;
+}
+
+#as_de_diamantes{
+    z-index: 5;
+    top: 100px;
+    left: 100px;
+}
+
+/*PARA EL RESULTADO 2:*/
+#diez_de_diamantes2, #sota_de_diamantes2, #reina_de_diamantes2, #rey_de_diamantes2, #as_de_diamantes2{
+    position: absolute;
+    width: 525px;
+    line-height: 250px;
+    text-align: center;
+}
+
+#diez_de_diamantes2{
+    z-index: 5;
+    top: 40px;
+    left: 40px;
+}
+
+#sota_de_diamantes2{
+    z-index: 4;
+    top: 55px;
+    left: 55px;
+}
+#reina_de_diamantes2{
+    z-index: 3;
+    top: 70px;
+    left: 70px;
+}
+
+#rey_de_diamantes2{
+    z-index: 2;
+    top: 85px;
+    left: 85px;
+}
+
+#as_de_diamantes2{
+    z-index: 1;
+    top: 100px;
+    left: 100px;
+}
