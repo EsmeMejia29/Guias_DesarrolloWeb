@@ -60,6 +60,11 @@ h1{
     height: auto;
 }
 
+/*Esto es para que salga el cuadrito al mismo alto que la imagen:*/
+#imgDesc{
+    display: flex;
+}
+
 #imgDesc img{
     float: left;
 }
