@@ -1,0 +1,185 @@
+/* General: */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle at top left, #1f1f2e, #2c2c3a);
+  color: #333;
+}
+
+/* Encabezado principal */
+.titulo-principal {
+  text-align: center;
+  font-size: 2.5em;
+  color: #ffb6c1;
+  margin-top: 40px;
+  padding: 10px;
+  border-bottom: 2px solid #ffb6c1;
+}
+
+/* Sección de presentación */
+.seccion-presentacion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  background-color: #fff0f6;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 255, 255, 0.2);
+  border: 5px solid #00ffff;
+}
+
+/* Cajas internas de presentación */
+.presentacion-caja1,
+.presentacion-caja2 {
+  flex: 1 1 45%;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 255, 255, 0.1);
+}
+
+/* Sección de materia */
+.seccion-materia {
+  background-color: #f3e5f5;
+  padding: 20px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 255, 255, 0.2);
+  border: 5px solid #00ffff;
+}
+
+.nombre {
+  font-size: 1.8em;
+  color: #ff69b4;
+  margin: 10px 0;
+}
+
+.descripcion {
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+
+/* Sección de materia */
+.seccion-materia {
+  background-color: #f3e5f5;
+  padding: 20px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(108, 99, 255, 0.1);
+}
+
+.titulo-materia {
+  color: #ba68c8;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.texto-materia {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+/* Cajas de guías */
+.contenedor-guias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.guias {
+  background-color: #ffffff;
+  border: 10px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 15px;
+  width: 280px;
+  box-shadow: 0 4px 6px rgba(255, 105, 180, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.guias:hover {
+  transform: translateY(-5px);
+}
+
+.encabezados {
+  color: #6c63ff;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.lista-ejercicios li {
+  margin: 5px 0;
+}
+
+.lista-ejercicios a {
+  text-decoration: none;
+  color: #ff69b4;
+  font-weight: 500;
+}
+
+.lista-ejercicios a:hover {
+  text-decoration: underline;
+}
+
+/* Sección FODA */
+.seccion-foda {
+  background-color: #fce4ec;
+  padding: 20px;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(255, 182, 193, 0.2);
+}
+
+.titulo-foda {
+  text-align: center;
+  font-size: 1.8em;
+  color: #ba68c8;
+  margin-bottom: 20px;
+}
+
+.contenido-foda > div {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(108, 99, 255, 0.1);
+}
+
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .contenedor-guias {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .guias {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .seccion-presentacion {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .presentacion-caja1,
+  .presentacion-caja2 {
+    width: 100%;
+  }
+}

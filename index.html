@@ -4,83 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Índice de guias</title>  
-    <style>
-        h1{
-            background-color: pink;
-            text-align: center;
-            width: 100%;
-        }
-        .guias{
-            font-size: 0.9rem;
-            height: 235px;
-            width: 27%;
-            margin: 0.5%;
-            border: 2px solid gray;
-            box-sizing: border-box;
-            position: relative;
-            display: inline-block;
-            vertical-align: top;
-        }
-        #contenedor{
-            display: flex;
-            justify-content: center;
-        }
-        .encabezados{
-            text-align: center;
-        }
-        a{
-            text-decoration: none;
-            color: #008DC0;
-        }
-        a:hover{
-            color: #002F5C;
-            font-size:medium;
-        }
-        a:visited{
-            color: gray;
-        }
-    </style>
+    <link rel="stylesheet" href="designIndex.css">
 </head>
 <body>
-    <h1>Guías de Lorena Esmeralda Mejía Ramos - 20245435</h1>
-    <div id="contenedor">
-        <section class="guias">
-            <h2 class="encabezados">Guia 1</h2>
-            <ul>
-                <li><a href="..\Guias_DesarrolloWeb\20245435_guia1\estilos_embebidos.html" target="_blank">Ejercicio 1: Estilos embebidos</a></li>
-                <li><a href="..\Guias_DesarrolloWeb\20245435_guia1\ejemplo2.html" target="_blank">Ejercicio 2: Usando la etiqueta Style</a></li>
-                <li><a href="..\Guias_DesarrolloWeb\20245435_guia1\paises.html" target="_blank">Ejercicio 3: Países</a></li>
-                <li><a href="..\Guias_DesarrolloWeb\20245435_guia1\ejercicio_complementario.html" target="_blank">Ejercicio complementario</a></li>
-            </ul>
-        </section>
-        <section class="guias">
-            <h2 class="encabezados">Guia 2</h2>
-            <ul>
-                <li><a href="..\Guias_DesarrolloWeb\20245435_Guia2\pelicula.html" target="_blank">Ejercicio 1: El discurso del rey</a></li>
-                <li><a href="..\Guias_DesarrolloWeb\20245435_Guia2\tablero.html" target="_blank">Ejercicio 2: Tablero de Damas</a></li>
-                <li><a href="..\Guias_DesarrolloWeb\20245435_Guia2\biografia.html" target="_blank">Ejercicio complementario: Mi biografía</a></li>
-            </ul>
-        </section>
-        <section class="guias">
-        <h2 class="encabezados">Guia 3</h2>
-        <ul>
-            <li><a href="..\Guias_DesarrolloWeb\20245435_Guia3\oscares.html" target="_blank">Ejercicio 1: Nominaciones a Óscares</a></li>
-            <li><a href="..\Guias_DesarrolloWeb\20245435_Guia3\menu_horizontal.html" target="_blank">Ejercicio 2: Menú horizontal</a></li>
-            <li><a href="..\Guias_DesarrolloWeb\20245435_Guia3\index.html" target="_blank">Ejercicio 3: Viajeros, agencia de viajes</a></li>
-            <li>Ejercicios complementarios:
-                <ul><li><a href="..\Guias_DesarrolloWeb\20245435_Guia3\analisis.html" target="_blank">Posicionamiento de cartas</a></li></ul>
-                <ul><li><a href="..\Guias_DesarrolloWeb\20245435_Guia3\oscares_complementario.html" target="_blank">Nominaciones a Óscares modificado</a></li></ul>
-                <ul><li><a href="..\Guias_DesarrolloWeb\20245435_Guia3\index_complementario.html" target="_blank">Agencia de viajes, diseño flexible</a></li></ul>
-            </li>
-        </ul> 
-        </section>
-        <section class="guias">
-        <h2 class="encabezados">Guia 4</h2>
-        <ul>
-            <li><a href="..\Guias_DesarrolloWeb\20245435_Guia4\mediaqueries" target="_blank">Ejercicio 1: Media Queries</a></li>
-            <li><a href="..\Guias_DesarrolloWeb\20245435_Guia3\index" target="_blank">Ejercicio 2: Diseño responsivo de la agencia de viajes</a></li>
-        </ul> 
-        </section>
+  <h1 class="titulo-principal">Portafolio de guías de Desarrollo Web de Esmeralda Mejía</h1>
+
+  <div class="seccion-presentacion">
+    <div class="presentacion-caja1">
+        <p class="saludo">Hola, me llamo</p>
+        <h2 class="nombre">Lorena Esmeralda Mejía Ramos</h2>
     </div>
+    <div class="presentacion-caja2">
+        <p class="descripcion">
+        Mi carnet es el 20245435 y soy estudiante de segundo año de Ingeniería en Desarrollo de Software y Negocios Digitales en la ESEN.<br>
+        Me apasiona aprender y me considero una persona creativa y dedicada.
+        </p>
+    </div>
+    
+  </div>
+
+  <div class="seccion-materia">
+    <h2 class="titulo-materia">Acerca de la materia: Desarrollo Web</h2>
+    <p class="texto-materia">
+      Este curso es el primero en la secuencia de desarrollo web, y ha sido una gran introducción al mundo de la creación de sitios.
+    </p>
+    <p class="texto-materia">
+      Gracias a HTML y CSS, ahora puedo estructurar y diseñar páginas que se ven bien y funcionan en distintos dispositivos.
+      Además, aprendimos cómo se estructura una aplicación web en el front-end, cómo organizar sus componentes y aplicar buenas prácticas para escribir código claro y funcional. También vimos errores comunes que pueden afectar el desarrollo y cómo evitarlos para lograr proyectos más sólidos.
+    </p>
+  </div>
+
+  <div id="contenedor" class="contenedor-guias">
+    <section class="guias guia1">
+      <h2 class="encabezados">Guia 1</h2>
+      <p class="descripcion-guia">Descripción:</p>
+      <p class="detalle-guia">Esta guia fueron los primeros pasos para aprender las bases de algunos estilos que nos ofrece CSS.</p>
+      <ul class="lista-ejercicios">
+        <li><a href="..\Guias_DesarrolloWeb\20245435_guia1\estilos_embebidos.html" target="_blank">Ejercicio 1: Estilos embebidos</a></li>
+        <li><a href="..\Guias_DesarrolloWeb\20245435_guia1\ejemplo2.html" target="_blank">Ejercicio 2: Usando la etiqueta Style</a></li>
+        <li><a href="..\Guias_DesarrolloWeb\20245435_guia1\paises.html" target="_blank">Ejercicio 3: Países</a></li>
+        <li><a href="..\Guias_DesarrolloWeb\20245435_guia1\ejercicio_complementario.html" target="_blank">Ejercicio complementario</a></li>
+      </ul>
+    </section>
+
+    <section class="guias guia2">
+      <h2 class="encabezados">Guia 2</h2>
+      <p class="descripcion-guia">Descripción:</p>
+      <p class="detalle-guia">En esta guia, pudimos usar estilos un poco más avanzados de CSS.</p>
+      <ul class="lista-ejercicios">
+        <li><a href="..\Guias_DesarrolloWeb\20245435_Guia2\pelicula.html" target="_blank">Ejercicio 1: El discurso del rey</a></li>
+        <li><a href="..\Guias_DesarrolloWeb\20245435_Guia2\tablero.html" target="_blank">Ejercicio 2: Tablero de Damas</a></li>
+        <li><a href="..\Guias_DesarrolloWeb\20245435_Guia2\biografia.html" target="_blank">Ejercicio complementario: Mi biografía</a></li>
+      </ul>
+    </section>
+
+    <section class="guias guia3">
+      <h2 class="encabezados">Guia 3</h2>
+      <p class="descripcion-guia">Descripción:</p>
+      <p class="detalle-guia">Esta guia fue más enfocada a los posicionamientos que se pueden dar con CSS.</p>
+      <ul class="lista-ejercicios">
+        <li><a href="..\Guias_DesarrolloWeb\20245435_Guia3\oscares.html" target="_blank">Ejercicio 1: Nominaciones a Óscares</a></li>
+        <li><a href="..\Guias_DesarrolloWeb\20245435_Guia3\menu_horizontal.html" target="_blank">Ejercicio 2: Menú horizontal</a></li>
+        <li><a href="..\Guias_DesarrolloWeb\20245435_Guia3\index.html" target="_blank">Ejercicio 3: Viajeros, agencia de viajes</a></li>
+        <li class="complementarios">Ejercicios complementarios:
+          <ul><li><a href="..\Guias_DesarrolloWeb\20245435_Guia3\analisis.html" target="_blank">Posicionamiento de cartas</a></li></ul>
+          <ul><li><a href="..\Guias_DesarrolloWeb\20245435_Guia3\oscares_complementario.html" target="_blank">Nominaciones a Óscares modificado</a></li></ul>
+          <ul><li><a href="..\Guias_DesarrolloWeb\20245435_Guia3\index_complementario.html" target="_blank">Agencia de viajes, diseño flexible</a></li></ul>
+        </li>
+      </ul>
+    </section>
+
+    <section class="guias guia4">
+      <h2 class="encabezados">Guia 4</h2>
+      <p class="descripcion-guia">Descripción:</p>
+      <p class="detalle-guia">Con esta guía, pude ver cómo hacer una página web responsiva.</p>
+      <ul class="lista-ejercicios">
+        <li><a href="..\Guias_DesarrolloWeb\20245435_Guia4\mediaqueries" target="_blank">Ejercicio 1: Media Queries</a></li>
+        <li><a href="..\Guias_DesarrolloWeb\20245435_Guia3\index" target="_blank">Ejercicio 2: Diseño responsivo de la agencia de viajes</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <section class="seccion-foda">
+    <h2 class="titulo-foda">Análisis FODA</h2>
+    <div class="contenido-foda">
+      <div class="fortaleza"><strong>Fortalezas:</strong> Una habilidad que he mejorado es la de usar CSS y el uso de flexbox.</div>
+      <div class="oportunidad"><strong>Oportunidades:</strong> He aprendido a diseñar páginas web y a hacer front-end de forma interactiva.</div>
+      <div class="debilidad"><strong>Debilidades:</strong> Debo seguir trabajando en el diseño responsivo de las páginas web.</div>
+      <div class="amenaza"><strong>Amenazas:</strong> Se me dificultó mucho trabajar con mi computadora durante este ciclo, porque tenía poca memoria RAM, pero se logró.</div>
+    </div>
+  </section>
 </body>
 </html>
