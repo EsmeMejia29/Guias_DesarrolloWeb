@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validación de Estudiante</title>
+    
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Guia6_20245435/css/estudiante.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="contenedor-principal">
+        <div class="tarjeta-formulario">
+            
+            <div class="fondo-titulo">
+                <h3>Ficha de Estudiante</h3>
+            </div>
+
+            <div class="cuerpo-tarjeta">
+                <form id="studentForm">
+                    
+                    <div class="grupo-horizontal">
+                        <label class="etiqueta-lateral" for="txtCarnet">Carnet:</label>
+                        <input type="text" class="input-compacto" id="txtCarnet" placeholder="Ej: AB001">
+                    </div>
+
+                    <div class="grupo-horizontal">
+                        <label class="etiqueta-lateral" for="txtNombre">Nombre Completo:</label>
+                        <input type="text" class="input-compacto" id="txtNombre" placeholder="Ej: Juan Pérez">
+                    </div>
+
+                    <div class="grupo-horizontal">
+                        <label class="etiqueta-lateral" for="txtDui">DUI:</label>
+                        <input type="text" class="input-compacto" id="txtDui" placeholder="12345678-1">
+                    </div>
+
+                    <div class="grupo-horizontal">
+                        <label class="etiqueta-lateral" for="txtNit">NIT:</label>
+                        <input type="text" class="input-compacto" id="txtNit" placeholder="1234-123456-123-1">
+                    </div>
+
+                    <div class="grupo-horizontal">
+                        <label class="etiqueta-lateral" for="txtFecha">Nacimiento:</label>
+                        <input type="text" class="input-compacto" id="txtFecha" placeholder="DD/MM/AAAA">
+                    </div>
+
+                    <div class="grupo-horizontal">
+                        <label class="etiqueta-lateral" for="txtCorreo">Correo:</label>
+                        <input type="email" class="input-compacto" id="txtCorreo" placeholder="nombre@correo.com">
+                    </div>
+
+                    <div class="grupo-horizontal">
+                        <label class="etiqueta-lateral" for="txtEdad">Edad:</label>
+                        <input type="text" class="input-compacto" id="txtEdad" placeholder="#">
+                    </div>
+
+                    <div class="contenedor-boton">
+                        <button type="button" class="boton-verificar" onclick="validarEstudiante()">
+                            Validar información
+                        </button>
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/validarEstudiante.js"></script>
+</body>
+</html>
